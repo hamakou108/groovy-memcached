@@ -5,5 +5,5 @@ package com.hamakou
  * variables.
  */
 interface Request {
-  def parseMsg()
+    def parseMsg()
 }

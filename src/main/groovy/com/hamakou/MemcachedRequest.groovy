@@ -16,8 +16,8 @@ class MemcachedRequest implements Request {
    * @param msg the raw request message
    */
   def MemcachedRequest(String msg) {
-    this.msg = msg
-    this.parseMsg()
+      this.msg = msg
+      this.parseMsg()
   }
 
   /**
